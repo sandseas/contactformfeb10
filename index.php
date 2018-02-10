@@ -39,12 +39,14 @@
              
              Email: ".$_POST['email']."
              
-             Comment: ".$_POST['comment'])); {
+             Comment: ".$_POST['comment'])) {
                  
                  $result='<div class = "alert alert-success"><strong>Thank you!</strong></div>';
             
                 
                  
+             } else {
+                 $result='<div class = "alert alert-danger"><strong>Sorry, there was an error.   Please try again.!</strong></div>';
              }
                 
                 
